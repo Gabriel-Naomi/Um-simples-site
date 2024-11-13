@@ -23,9 +23,9 @@ li{
    --btnFontColor:var(--black)
   }
   :root{
-   --green: #00FF00;
+   --green: #33054e;
    --white: #ffffff;
-   --black: #000000; 
+   --black: #000000;
  }
  *{
    color: var(--fontColor);
