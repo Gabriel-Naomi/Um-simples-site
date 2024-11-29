@@ -11,21 +11,21 @@ li{
     list-style: square;
  }
  .light-theme {
-    --bg: var(--green);
-    --fontcolor:var(--black);
-    --btnBg:var(--black)
-    --btnFontColor:var(--white)
+    --bg: var(--roxo);
+    --fontcolor:var(--branco);
+    --btnBg:var(--preto)
+    --btnFontColor:var(--branco)
  }
  .dark-theme {
-   --bg: var(--black);
-   --fontColor: var(--green);
-   --btnBg:var(--white)
-   --btnFontColor:var(--black)
+   --bg: var(--preto);
+   --fontColor: var(--verde);
+   --btnBg:var(--branco)
+   --btnFontColor:var(--preto)
   }
   :root{
-   --green: #33054e;
-   --white: #ffffff;
-   --black: hsl(180, 55%, 44%);
+   --roxo: #33054e;
+   --branco: #ffffff;
+   --preto: hsl(180, 55%, 44%);
  }
  *{
    color: var(--fontColor);
