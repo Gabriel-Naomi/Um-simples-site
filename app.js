@@ -1,9 +1,9 @@
 'use strict'
 const switcher =document.querySelector('.btn')
 switcher.addEventListener('click', function(){
-    document.body.classList.toggle('dark-theme')
+    document.body.classList.toggle('Roxo-theme')
     var className = document.body.className;
-    if(className == 'light-theme'){
+    if(className == 'Azul-theme'){
         this.textContent = "Roxo";
     }
     else{
