@@ -25,7 +25,7 @@ li{
   :root{
    --roxo: #33054e;
    --branco: #ffffff;
-   --preto: hsl(180, 55%, 44%);
+   --preto: hsla(252, 52%, 29%, 0.863);
  }
  *{
    color: var(--fontColor);
